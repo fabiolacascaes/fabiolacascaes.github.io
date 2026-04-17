@@ -143,3 +143,33 @@ textarea {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     transition: visibility 1s ease-in-out;
 }
+
+@media (max-width: 1000px) {
+    .logo-mario {
+        display: none;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        padding: 30px;
+        justify-content: space-evenly
+    }
+
+    .caixa-principal {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem-mario-luigi {
+        height: auto;
+        width: 80%;
+    }
+
+    .caixa-mario-luigi {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
